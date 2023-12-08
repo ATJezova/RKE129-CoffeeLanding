@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Nova+Square&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+.intro-img {
+    background-image: url('../image/img3.jpeg');
+    background-position: bottom;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.intro-img-link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #87634ab2;
+    color: #c0ad92;
+    padding: 1.5rem;
+    border: 2px solid #87634a;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-img-link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    height: 250px;
+    background-color: #533323;
+    color: #c0ad92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-img {
+    height: 450px;
+    background-image: url('../image/img1.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.quality-img-link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #201617ad;
+    color: #b69b95;
+    padding: 1.5rem;
+    border: 2px solid #201617;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-img-link a:hover {
+    transform: scale(1.2);
+}
+
+.quality-text{
+    height: 250px;
+    background-color: #573935;
+    color: #b69b95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.quality-textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-img {
+    height: 450px;
+    background-image: url('../image/img4.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.origin-img-link a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-color: #548694a6;
+    color: #91a2a8;
+    padding: 1.5rem;
+    border: 2px solid #548694;
+    transition: all 0.5s ease-in-out;
+}
+
+.origin-img-link a:hover {
+    transform: scale(1.2);
+}
+
+.origin-text{
+    height: 250px;
+    background-color: #3c312e;
+    color: #9d725e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.origin-textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #201617;
+    color: #9a9493;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #9a9493;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    /* transform: scale(1.2);  et seda kasutada siis pead ylevallt selle a ara votma*/
+    color: white;
+}
